@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>画像スライドショー</title>
+    <style>
+        /* 必要に応じてスタイルを調整してください */
+        #imageDisplay {
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="imageUpload" accept="image/*" multiple>
+    <button id="prevButton">前</button>
+    <img id="imageDisplay" alt="アップロードされた画像はここに表示されます">
+    <button id="nextButton">次</button>
+    <script src="../src/swipe.js"></script>
+</body>
+</html>
